@@ -1,0 +1,155 @@
+/*--------------------------------------------- head------------------------------------------- */
+
+body{
+	margin: 0;
+}
+.border{
+
+}
+
+.header{
+	height: 30px;
+	background-color: #2c3492;
+}
+.socialicon{
+	list-style-type: none;
+    margin: 0px;
+    padding-left: 10%;
+    padding-top: 5px;
+}
+.socialicon li{
+	float: left;
+	display: inline-block;
+	padding-right: 7px;
+}
+
+.header i{
+	color: white;
+}
+
+.givusacall{
+	display: inline-block;
+	letter-spacing: 1px;
+	font-size: 15px;	
+	color: white;
+	float: right;
+	margin: 0px;
+	padding-right: 10%;
+}
+
+.givusacall li{
+	margin: 0px;
+	display: inline-block;
+	float: right;
+	padding-right: 7px;
+}
+
+.nav {
+ 	display: flex;
+ 	justify-content: center;
+	background-color: white ;
+	list-style-type: none;    
+	padding:0 ;
+	margin: 0;
+}
+.nav li{
+	margin: 15px 40px;
+	line-height: 30px;
+
+	text-align: center;
+	
+	background-color: white; 
+}
+
+.nav li a {
+	transition-duration: 0.4s;
+	border: 2px solid #2c3492;
+	width: 80px;
+  	cursor: pointer;
+  	padding: 3px;
+  	color: black; 
+  	font-size: 20px;
+  	text-decoration: none;
+	 
+}
+
+.nav li:hover a{
+	background-color: #2c3492;
+  color: white;
+}
+
+
+h1{
+	margin: 19px;
+	font-size: 50px;
+	text-align: center;
+	color: #2E2E2E;
+}
+
+.logo img{
+	
+	width: 80px;
+	height: auto;
+}
+.logo{
+	width: 80px;
+	margin: auto;
+}
+
+@media screen and (max-width: 700px) {
+  .nav li{
+    margin: 15px 15px;
+
+  }
+}
+
+
+/*----------------------------foot--------------------------------------------------*/
+.fot{
+	display: flex;
+ 	justify-content: center;
+  	flex-wrap: wrap;
+	background-image: url("foot.jpg");
+	background-size: cover;
+	color: white;
+}
+
+.fotcal{
+	width: 400px;
+  	margin:50px 10px 0;
+  	text-align: center;
+	vertical-align: middle;
+}
+
+.city{
+	list-style-type: none;
+    margin:5px 0;
+    padding:0px;
+}
+
+.city li{
+	padding: 10px;
+}
+
+.links{
+	display: flex;
+  	justify-content: center;
+  	color: #2c3492;
+}
+
+.links > div{
+	background-color:white;
+  border-radius: 50%;
+  width: 72px;
+  margin: 10px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;
+	color: #2c3492;
+	cursor: pointer;
+}
+
+.cl{
+font-size: 30px; 
+padding: 20px;
+}

@@ -1,0 +1,78 @@
+.about{
+	width: 70%;
+	margin: auto;
+	margin-bottom: 50px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.field_set{
+  border-color: blue;
+  border-style: solid;
+  border-radius: 10px;
+}
+
+.col{
+	margin: 10px;
+	width: 47%;
+	display: inline-block;
+}
+.row{
+	width: 100%;
+}
+input[type=password] , input[type=email] , input[type=tel] , input[name=address]{
+	margin-left: 10px;
+	width: 96%;
+}
+
+
+
+input  {
+  	outline: 0;
+  	border-width: 0 0 2px;
+    border-color: blue;
+  	width: 100%;
+  	padding: 12px;
+  	resize: vertical;
+}
+
+input:focus , select:focus{
+  border-color: green
+}
+
+input[type="radio"]{
+	width: 10px !important;
+}
+
+input[type=submit]  {
+	text-align: center !important; 
+	margin-left: 10px !important;
+	width: 96% !important;
+  	background-color:  #414ddbfa !important;
+  	color: white !important;
+  	padding: 12px 20px !important;
+  	border: none !important;
+  	border-radius: 4px !important;
+  	cursor: pointer !important;
+  	margin: 10px 0;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049 !important;
+}
+
+
+@media screen and (max-width: 1109px) {
+  .col{
+    width: 96%;
+
+  }
+}

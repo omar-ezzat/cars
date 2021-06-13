@@ -1,0 +1,38 @@
+.about{
+	width: 85% ;
+	margin: auto;
+	margin-bottom: 100px;
+}
+
+table {
+	width: 100%;
+    border-collapse: collapse;
+      box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.1);
+  }
+
+table td, table th {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+  }
+
+  table tr:nth-child(even){background-color: #6b77ffba;}
+
+  table th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+
+    color: white;
+    text-align: center;
+  }
+  table span
+  {
+    color: #ff0157;
+    font-weight: 700;
+    font-size:1.5em;
+  }
+
+.pic{
+	width:70%;
+}
